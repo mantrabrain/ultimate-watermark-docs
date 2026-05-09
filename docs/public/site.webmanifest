@@ -1,0 +1,13 @@
+{
+  "name": "Ultimate Watermark Documentation",
+  "short_name": "UW Docs",
+  "description": "Official documentation for the Ultimate Watermark WordPress plugin (Free + Pro)",
+  "start_url": "/docs/",
+  "scope": "/docs/",
+  "icons": [
+    { "src": "/docs/logo.svg", "type": "image/svg+xml", "sizes": "any" }
+  ],
+  "theme_color": "#4f46e5",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

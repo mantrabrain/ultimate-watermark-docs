@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Allow: /installation
+Allow: /quick-start
+Allow: /admin-dashboard
+Allow: /watermarks
+Allow: /positioning
+Allow: /conditional-rules
+Allow: /settings
+Allow: /performance
+Allow: /third-party-integrations
+Allow: /features
+Allow: /hooks-filters
+Allow: /api-reference
+Allow: /faqs
+Allow: /troubleshooting
+Allow: /changelog
+Allow: /support
+
+Sitemap: https://ultimate-watermark.mantrabrain.com/docs/sitemap.xml
