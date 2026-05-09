@@ -131,7 +131,7 @@ If you have very many (10 000+), Pro adds a batch processor (`wp_schedule_single
     <span class="pro-callout__title">Watermark on the fly, never burn the original</span>
   </div>
   <p class="pro-callout__desc">Pro can render the watermark at request time — your originals stay untouched on disk; the visitor sees a watermarked version. Edit the watermark, refresh — done. No bulk re-process.</p>
-  <a class="pro-callout__cta" href="https://mantrabrain.com/ultimate-watermark-pro/">Unlock OTF →</a>
+  <a class="pro-callout__cta" href="https://mantrabrain.com/plugins/ultimate-watermark#pricing">Unlock OTF →</a>
 </div>
 
 To enable:

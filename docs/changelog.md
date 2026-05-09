@@ -53,7 +53,7 @@ Ultimate Watermark follows semantic versioning loosely — `MAJOR.MINOR.PATCH` w
 ## Where to find the canonical changelog
 
 - **Free**: bundled `changelog.txt` and the [WordPress.org listing](https://wordpress.org/plugins/ultimate-watermark/#developers).
-- **Pro**: bundled in the Pro ZIP as `changelog.txt`, plus the [MantraBrain changelog page](https://mantrabrain.com/ultimate-watermark-pro/#changelog).
+- **Pro**: bundled in the Pro ZIP as `changelog.txt`, plus the [MantraBrain changelog page](https://mantrabrain.com/plugins/ultimate-watermark#changelog).
 
 ## Where to go next
 

@@ -53,7 +53,7 @@ These run via `frontend.js` (`frontend.js:34–41`) — they don't stop a determ
     <span class="pro-callout__title">On-the-fly display, per template</span>
   </div>
   <p class="pro-callout__desc">Pro adds a Display tab inside the watermark builder. Toggle on-the-fly rendering, decide whether to apply to post-content images, thumbnails, WooCommerce galleries, and which roles bypass the watermark.</p>
-  <a class="pro-callout__cta" href="https://mantrabrain.com/ultimate-watermark-pro/">Unlock OTF →</a>
+  <a class="pro-callout__cta" href="https://mantrabrain.com/plugins/ultimate-watermark#pricing">Unlock OTF →</a>
 </div>
 
 Display tab fields (`ProAdminManager.php:1495–1577`):

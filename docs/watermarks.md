@@ -116,7 +116,7 @@ If you later edit the watermark template:
     <span class="pro-callout__title">OTF (on-the-fly) display</span>
   </div>
   <p class="pro-callout__desc">Pro renders the watermark <strong>at request time</strong> — original files stay untouched on disk; visitors see a watermarked version that's cached after first render.</p>
-  <a class="pro-callout__cta" href="https://mantrabrain.com/ultimate-watermark-pro/">Unlock OTF →</a>
+  <a class="pro-callout__cta" href="https://mantrabrain.com/plugins/ultimate-watermark#pricing">Unlock OTF →</a>
 </div>
 
 Toggle the **Display on frontend** option in the watermark's **Display** tab. See [Pro features → On-the-fly display](/features#on-the-fly-display).

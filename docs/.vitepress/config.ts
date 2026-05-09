@@ -128,7 +128,7 @@ export default defineConfig({
       },
       {
         text: 'Ultimate Watermark Pro',
-        link: 'https://mantrabrain.com/ultimate-watermark-pro/',
+        link: 'https://mantrabrain.com/plugins/ultimate-watermark',
         target: '_blank',
         rel: 'noopener'
       }
@@ -190,7 +190,7 @@ export default defineConfig({
 
     footer: {
       message:
-        '© MantraBrain · GPLv3+ · <a href="https://mantrabrain.com/ultimate-watermark-pro/" target="_blank" rel="noopener"><strong>Ultimate Watermark Pro</strong> — pricing</a>',
+        '© MantraBrain · GPLv3+ · <a href="https://mantrabrain.com/plugins/ultimate-watermark#pricing" target="_blank" rel="noopener"><strong>Ultimate Watermark</strong> — pricing</a>',
       copyright: `Copyright © ${new Date().getFullYear()} MantraBrain`
     },
 

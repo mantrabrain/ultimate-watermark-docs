@@ -5,8 +5,8 @@ description: A guided tour of every Ultimate Watermark Pro module — dynamic pl
 
 <div class="doc-pro-callout" role="note">
   <span class="doc-pro-pill">Pro</span>
-  <span>This page is the <strong>guided tour</strong> of Ultimate Watermark Pro. For the <strong>flat catalog</strong> (one card per feature), see <a href="/features">All Pro features</a>.</span>
-  <a class="doc-pro-callout__cta" href="https://mantrabrain.com/ultimate-watermark-pro/" target="_blank" rel="noopener">View pricing &amp; buy →</a>
+  <span>This page is the <strong>guided tour</strong> of Ultimate Watermark Pro. For the <strong>flat catalog</strong> (one card per feature), see <a href="/docs/features">All Pro features</a>.</span>
+  <a class="doc-pro-callout__cta" href="https://mantrabrain.com/plugins/ultimate-watermark" target="_blank" rel="noopener">View pricing &amp; buy →</a>
 </div>
 
 # Pro features overview
@@ -126,7 +126,7 @@ Activation: <span class="screen-path">Watermark → License</span> (`ProAdminMan
 
 Ultimate Watermark Pro is sold as a **single tier** — every active license unlocks every Pro module above. Pricing options differ on **license seats** and **renewal terms**.
 
-> EDD's `price_id=1` is the visible price ID in code (`WatermarkActionsHandler.php:75`). For current seats and renewal terms, see the [pricing page](https://mantrabrain.com/ultimate-watermark-pro/).
+> EDD's `price_id=1` is the visible price ID in code (`WatermarkActionsHandler.php:75`). For current seats and renewal terms, see the [pricing page](https://mantrabrain.com/plugins/ultimate-watermark).
 
 ## Where to go next
 

@@ -6,7 +6,7 @@ description: Apply watermarks only where they matter — by post type, image siz
 <div class="doc-pro-callout" role="note">
   <span class="doc-pro-pill">Pro</span>
   <span><strong>Free</strong> rules cover post type and image size. <strong>Pro</strong> adds file type, image dimensions, file size, orientation, aspect ratio, date range, post category, and (with WooCommerce) <code>product_cat</code> &amp; <code>product_tag</code>.</span>
-  <a class="doc-pro-callout__cta" href="https://mantrabrain.com/ultimate-watermark-pro/" target="_blank" rel="noopener">View pricing &amp; buy →</a>
+  <a class="doc-pro-callout__cta" href="https://mantrabrain.com/plugins/ultimate-watermark#pricing" target="_blank" rel="noopener">View pricing &amp; buy →</a>
 </div>
 
 # Conditional rules
@@ -45,7 +45,7 @@ Click **Add rule** to add another condition. Click **×** to remove.
     <span class="pro-callout__title">Granular conditions</span>
   </div>
   <p class="pro-callout__desc">Pro adds file type, dimensions, file size, orientation, aspect ratio, date range, and category-based rules. With WooCommerce active, you also get product category and tag rules.</p>
-  <a class="pro-callout__cta" href="https://mantrabrain.com/ultimate-watermark-pro/">Unlock advanced rules →</a>
+  <a class="pro-callout__cta" href="https://mantrabrain.com/plugins/ultimate-watermark#pricing">Unlock advanced rules →</a>
 </div>
 
 | Rule | What it matches |

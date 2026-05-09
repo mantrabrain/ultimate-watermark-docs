@@ -17,11 +17,11 @@ next:
       <span class="doc-pro-pill" title="Adds dynamic placeholders, on-the-fly display, WooCommerce, batch processing, unlimited templates">Pro</span>
     </div>
     <h1 class="uw-hero__title">Protect every image you upload — text &amp; logo watermarks for the WordPress media library.</h1>
-    <p class="uw-hero__lede">Ultimate Watermark stamps text or logo overlays on JPEG, PNG, GIF, and WebP uploads — automatically, on every size, with conditional rules. The <strong>free plugin</strong> covers automatic watermarking, right-click protection, originals backup, and one watermark template. <strong>Ultimate Watermark Pro</strong> adds dynamic placeholders, on-the-fly frontend display, WooCommerce integration, advanced rules, batch processing, and unlimited templates.<br /><span style="margin-top:.6rem;display:inline-block;color:var(--vp-c-text-2);font-size:0.95rem;">New here? Jump to <a href="/installation">Install</a>, then read <a href="/admin-dashboard">Your WordPress admin</a> — it mirrors the Watermark sidebar one-to-one.</span></p>
+    <p class="uw-hero__lede">Ultimate Watermark stamps text or logo overlays on JPEG, PNG, GIF, and WebP uploads — automatically, on every size, with conditional rules. The <strong>free plugin</strong> covers automatic watermarking, right-click protection, originals backup, and one watermark template. <strong>Ultimate Watermark Pro</strong> adds dynamic placeholders, on-the-fly frontend display, WooCommerce integration, advanced rules, batch processing, and unlimited templates.<br /><span style="margin-top:.6rem;display:inline-block;color:var(--vp-c-text-2);font-size:0.95rem;">New here? Jump to <a href="/docs/installation">Install</a>, then read <a href="/docs/admin-dashboard">Your WordPress admin</a> — it mirrors the Watermark sidebar one-to-one.</span></p>
     <div class="uw-hero__actions">
-      <a class="uw-btn uw-btn--primary" href="/installation">Install Ultimate Watermark (free)</a>
-      <a class="uw-btn uw-btn--ghost" href="/quick-start">Add your first watermark</a>
-      <a class="doc-btn-pro" href="https://mantrabrain.com/ultimate-watermark-pro/" target="_blank" rel="noopener">Get Ultimate Watermark Pro</a>
+      <a class="uw-btn uw-btn--primary" href="/docs/installation">Install Ultimate Watermark (free)</a>
+      <a class="uw-btn uw-btn--ghost" href="/docs/quick-start">Add your first watermark</a>
+      <a class="doc-btn-pro" href="https://mantrabrain.com/plugins/ultimate-watermark" target="_blank" rel="noopener">Get Ultimate Watermark Pro</a>
     </div>
     <p class="uw-hero__chip-label">What you need to run Ultimate Watermark:</p>
     <div class="uw-hero__chip-grid" role="list">
@@ -29,7 +29,7 @@ next:
       <span class="uw-hero__chip" role="listitem">PHP 7.4+</span>
       <span class="uw-hero__chip" role="listitem">GD or Imagick</span>
       <span class="uw-hero__chip uw-hero__chip--free" role="listitem"><strong>Free</strong> JPEG · PNG · GIF · WebP</span>
-      <span class="uw-hero__chip uw-hero__chip--prolane" role="listitem"><span class="doc-pro-pill">Pro</span> Dynamic placeholders · On-the-fly display · WooCommerce · Advanced rules · Batch · Unlimited templates<a class="doc-pro-upgrade-link" href="https://mantrabrain.com/ultimate-watermark-pro/" target="_blank" rel="noopener">Compare plans →</a></span>
+      <span class="uw-hero__chip uw-hero__chip--prolane" role="listitem"><span class="doc-pro-pill">Pro</span> Dynamic placeholders · On-the-fly display · WooCommerce · Advanced rules · Batch · Unlimited templates<a class="doc-pro-upgrade-link" href="https://mantrabrain.com/plugins/ultimate-watermark" target="_blank" rel="noopener">Compare plans →</a></span>
     </div>
   </div>
 </div>
@@ -37,8 +37,8 @@ next:
 <div class="doc-pro-banner" role="note">
   <p class="doc-pro-banner__copy"><strong><span class="doc-pro-pill">Pro</span> Need to watermark images on-the-fly without burning the original?</strong> Ultimate Watermark Pro renders watermarks at request-time and caches the output — so your originals stay untouched, and changes to the watermark refresh on the next page load.</p>
   <div class="doc-pro-banner__actions">
-    <a class="doc-btn-pro" href="https://mantrabrain.com/ultimate-watermark-pro/" target="_blank" rel="noopener">View pricing &amp; buy</a>
-    <a class="doc-btn-pro-ghost" href="/features">Browse Pro features →</a>
+    <a class="doc-btn-pro" href="https://mantrabrain.com/plugins/ultimate-watermark" target="_blank" rel="noopener">View pricing &amp; buy</a>
+    <a class="doc-btn-pro-ghost" href="/docs/features">Browse Pro features →</a>
   </div>
 </div>
 
@@ -46,35 +46,35 @@ next:
 
 <div class="uw-cards">
 
-<a class="uw-card" href="/installation">
+<a class="uw-card" href="/docs/installation">
   <span class="uw-card__icon">📦</span>
   <h3>Install &amp; setup</h3>
   <p>Free + Pro ZIP, license activation, GD vs Imagick checks, and your first watermark template.</p>
   <span class="uw-card__cta">Get started →</span>
 </a>
 
-<a class="uw-card uw-card--flagged" href="/admin-dashboard">
+<a class="uw-card uw-card--flagged" href="/docs/admin-dashboard">
   <span class="uw-card__icon">🧭</span>
   <h3>Your WordPress admin</h3>
   <p>Plain map of <strong>Dashboard</strong>, <strong>Watermarks</strong>, <strong>Add Watermark</strong>, <strong>Settings</strong>, <strong>Backups</strong>, <strong>Analytics</strong> — exactly how the menu labels them.</p>
   <span class="uw-card__cta">Match the sidebar →</span>
 </a>
 
-<a class="uw-card" href="/watermarks">
+<a class="uw-card" href="/docs/watermarks">
   <span class="uw-card__icon">🖼️</span>
   <h3>Watermarks</h3>
   <p>Build text and image watermarks. Font, size, opacity, scaling, multi-line text, layered watermarks.</p>
   <span class="uw-card__cta">Build watermarks →</span>
 </a>
 
-<a class="uw-card" href="/positioning">
+<a class="uw-card" href="/docs/positioning">
   <span class="uw-card__icon">📐</span>
   <h3>Positioning &amp; sizing</h3>
   <p>9-point grid, pixel and percentage offsets, auto-scale by image dimensions, image quality controls.</p>
   <span class="uw-card__cta">Position watermarks →</span>
 </a>
 
-<a class="uw-card uw-card--flagged" href="/conditional-rules">
+<a class="uw-card uw-card--flagged" href="/docs/conditional-rules">
   <span class="doc-card-badge-pro"><span class="doc-pro-pill">Pro extra</span></span>
   <span class="uw-card__icon">🎯</span>
   <h3>Conditional rules</h3>
@@ -82,14 +82,14 @@ next:
   <span class="uw-card__cta">Target watermarks →</span>
 </a>
 
-<a class="uw-card" href="/settings">
+<a class="uw-card" href="/docs/settings">
   <span class="uw-card__icon">⚙️</span>
   <h3>Global settings</h3>
   <p>Originals backup, right-click protection, drag prevention, logged-in user behavior — every plugin-wide option.</p>
   <span class="uw-card__cta">Configure plugin →</span>
 </a>
 
-<a class="uw-card uw-card--flagged" href="/performance">
+<a class="uw-card uw-card--flagged" href="/docs/performance">
   <span class="doc-card-badge-pro"><span class="doc-pro-pill">Pro extra</span></span>
   <span class="uw-card__icon">⚡</span>
   <h3>Performance &amp; caching</h3>
@@ -97,7 +97,7 @@ next:
   <span class="uw-card__cta">Tune performance →</span>
 </a>
 
-<a class="uw-card uw-card--flagged" href="/third-party-integrations">
+<a class="uw-card uw-card--flagged" href="/docs/third-party-integrations">
   <span class="doc-card-badge-pro"><span class="doc-pro-pill">Pro</span></span>
   <span class="uw-card__icon">💎</span>
   <h3>Pro features overview</h3>
@@ -105,42 +105,42 @@ next:
   <span class="uw-card__cta">Explore Pro →</span>
 </a>
 
-<a class="uw-card" href="/features">
+<a class="uw-card" href="/docs/features">
   <span class="uw-card__icon">📋</span>
   <h3>All Pro features</h3>
   <p>Flat catalog. One card per Pro feature, plus the plan tier matrix for the available license tiers.</p>
   <span class="uw-card__cta">See the matrix →</span>
 </a>
 
-<a class="uw-card" href="/hooks-filters">
+<a class="uw-card" href="/docs/hooks-filters">
   <span class="uw-card__icon">🪝</span>
   <h3>Hooks &amp; filters</h3>
   <p>Actions and filters that let you extend conditions, register watermark types, modify rendering, and integrate with other plugins.</p>
   <span class="uw-card__cta">Extend Watermark →</span>
 </a>
 
-<a class="uw-card" href="/api-reference">
+<a class="uw-card" href="/docs/api-reference">
   <span class="uw-card__icon">🔌</span>
   <h3>REST &amp; WP integration</h3>
   <p>Ultimate Watermark doesn't register custom REST routes — it hooks into WP's core media REST and metadata pipeline.</p>
   <span class="uw-card__cta">Read API docs →</span>
 </a>
 
-<a class="uw-card" href="/faqs">
+<a class="uw-card" href="/docs/faqs">
   <span class="uw-card__icon">❓</span>
   <h3>FAQs</h3>
   <p>Free vs Pro, GD vs Imagick, AVIF support, originals safety, large libraries, multisite — the most-asked questions.</p>
   <span class="uw-card__cta">Find answers →</span>
 </a>
 
-<a class="uw-card" href="/troubleshooting">
+<a class="uw-card" href="/docs/troubleshooting">
   <span class="uw-card__icon">🛠️</span>
   <h3>Troubleshooting</h3>
   <p>Watermark not applied, blurry result, transparent PNG issues, memory errors, OTF cache stale, license activation.</p>
   <span class="uw-card__cta">Fix issues →</span>
 </a>
 
-<a class="uw-card" href="/support">
+<a class="uw-card" href="/docs/support">
   <span class="uw-card__icon">💬</span>
   <h3>Get support</h3>
   <p>WordPress.org forum, MantraBrain support portal, Pro priority help, and how to file a useful bug report.</p>
@@ -175,7 +175,7 @@ next:
 | **Display tab** (per-watermark OTF settings)                     | —   | ✅  |
 | **License manager** (EDD updater)                                | —   | ✅  |
 
-> Ultimate Watermark Pro is sold as a single tier — every active license unlocks every Pro feature listed above. See the [pricing page](https://mantrabrain.com/ultimate-watermark-pro/) for the latest seats and renewal terms.
+> Ultimate Watermark Pro is sold as a single tier — every active license unlocks every Pro feature listed above. See the [pricing page](https://mantrabrain.com/plugins/ultimate-watermark) for the latest seats and renewal terms.
 
 ## Need help fast?
 
