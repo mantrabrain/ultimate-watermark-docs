@@ -39,7 +39,7 @@ In <span class="screen-path">Basic → Type</span>, select **Text**. The Appeara
 | **Decoration** | None / Underline / Line-through. |
 | **Color** | Hex picker. |
 
-> <span class="doc-pro-pill">Pro</span> Pro lets you embed dynamic placeholders like `{{date}}`, `{{user}}`, `{{ip}}`, `{{copyright}}` — see [Pro features → Dynamic placeholders](/features#dynamic-placeholders).
+> <span class="doc-pro-pill">Pro</span> Pro lets you embed dynamic placeholders like `&#123;&#123;date&#125;&#125;`, `&#123;&#123;user&#125;&#125;`, `&#123;&#123;ip&#125;&#125;`, `&#123;&#123;copyright&#125;&#125;` — see [Pro features → Dynamic placeholders](/third-party-integrations#dynamic-placeholders).
 
 ### Image watermark
 

@@ -25,7 +25,7 @@ Ultimate Watermark Pro adds these modules to the free core. Click any card to re
 
 <a class="doc-addon-card" href="/docs/third-party-integrations#dynamic-placeholders">
   <h3 class="doc-addon-card__title">Dynamic placeholders <span class="doc-pro-pill">Pro</span></h3>
-  <p class="doc-addon-card__copy"><code>{{date}}</code>, <code>{{user}}</code>, <code>{{ip}}</code>, <code>{{copyright}}</code>, <code>{{post_title}}</code> — text watermarks that change with context.</p>
+  <p class="doc-addon-card__copy"><code>&#123;&#123;date&#125;&#125;</code>, <code>&#123;&#123;user&#125;&#125;</code>, <code>&#123;&#123;ip&#125;&#125;</code>, <code>&#123;&#123;copyright&#125;&#125;</code>, <code>&#123;&#123;post_title&#125;&#125;</code> — text watermarks that change with context.</p>
   <span class="doc-addon-card__cta">Use placeholders →</span>
 </a>
 

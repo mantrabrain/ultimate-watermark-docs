@@ -35,7 +35,7 @@ Best for: copyright lines, studio names, URLs.
 
 Each new line in the **Watermark text** box becomes a new line on the rendered watermark.
 
-> <span class="doc-pro-pill">Pro</span> Text supports **dynamic placeholders** like `{{date}}`, `{{user}}`, `{{ip}}`, `{{copyright}}`, `{{post_title}}` — see [Pro features → Dynamic placeholders](/features#dynamic-placeholders).
+> <span class="doc-pro-pill">Pro</span> Text supports **dynamic placeholders** like `&#123;&#123;date&#125;&#125;`, `&#123;&#123;user&#125;&#125;`, `&#123;&#123;ip&#125;&#125;`, `&#123;&#123;copyright&#125;&#125;`, `&#123;&#123;post_title&#125;&#125;` — see [Pro features → Dynamic placeholders](/third-party-integrations#dynamic-placeholders).
 
 ### Image watermark
 
