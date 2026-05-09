@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "build": "vitepress build docs && node scripts/prepare-netlify.mjs",
+    "docs:build": "vitepress build docs && node scripts/prepare-netlify.mjs",
     "preview": "vitepress preview docs"
   },
   "devDependencies": {

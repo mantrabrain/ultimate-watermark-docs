@@ -69,7 +69,8 @@ export default defineConfig({
   ],
 
   base: '/docs/',
-  outDir: 'docs/.vitepress/dist/docs/',
+  /** Resolved relative to the VitePress root (`docs/`); keeps Netlify publish at `docs/.vitepress/dist`. */
+  outDir: '.vitepress/dist',
   cleanUrls: true,
 
   themeConfig: {

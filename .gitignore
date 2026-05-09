@@ -2,3 +2,4 @@ node_modules/
 docs/.vitepress/dist/
 docs/docs/.vitepress/dist/
 **/.vitepress/cache/
+netlify-dist/

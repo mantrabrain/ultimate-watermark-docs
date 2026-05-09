@@ -1,0 +1,39 @@
+# Same deployment pattern as Sikshya docs: VitePress `base: '/docs/'` + publish bundle with site files under `docs/`.
+# Domains differ (ultimate-watermark.mantrabrain.com vs sikshya.mantrabrain.com); structure matches.
+
+[build]
+  publish = "netlify-dist"
+  command = "npm run docs:build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/"
+  to = "/docs/"
+  status = 302
+
+[[redirects]]
+  from = "/docs"
+  to = "/docs/"
+  status = 302
+
+[[redirects]]
+  from = "/*"
+  to = "/docs/:splat"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+[context.production]
+  command = "npm run docs:build"
+
+[context.deploy-preview]
+  command = "npm run docs:build"
