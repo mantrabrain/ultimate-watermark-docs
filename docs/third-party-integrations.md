@@ -30,26 +30,69 @@ All run on every upload; conditional rules decide which ones actually apply.
 
 ### Dynamic placeholders {#dynamic-placeholders}
 
-Embed `&#123;&#123;placeholder&#125;&#125;` tokens inside text watermarks. Pro replaces them at render time:
+<!-- v-pre: Vue otherwise treats {{ }} as template syntax; HTML avoids entities showing literally in <code>. -->
+<div v-pre>
 
-<!-- VitePress/Vue compile markdown; literal placeholder braces are spelled with entities in this table. -->
-| Placeholder | Replaces with |
-| --- | --- |
-| `&#123;&#123;date&#125;&#125;` | Current date in WP date format. |
-| `&#123;&#123;time&#125;&#125;` | Current time. |
-| `&#123;&#123;year&#125;&#125;` | Current year. |
-| `&#123;&#123;user&#125;&#125;` | Logged-in viewer's display name (or empty for guests). |
-| `&#123;&#123;user_login&#125;&#125;` | Logged-in viewer's username. |
-| `&#123;&#123;ip&#125;&#125;` | Visitor's IP address (deters re-publishing). |
-| `&#123;&#123;copyright&#125;&#125;` | © plus year and site name (see plugin output). |
-| `&#123;&#123;post_title&#125;&#125;` | Title of the post the image is attached to. |
-| `&#123;&#123;site_name&#125;&#125;` | Site title from <span class="screen-path">Settings → General</span>. |
-| `&#123;&#123;site_url&#125;&#125;` | `home_url()`. |
+<p>Embed <code>{{placeholder}}</code> tokens inside text watermarks. Pro replaces them at render time:</p>
 
-Use cases:
+<table>
+  <thead>
+    <tr>
+      <th>Placeholder</th>
+      <th>Replaces with</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>{{date}}</code></td>
+      <td>Current date in WP date format.</td>
+    </tr>
+    <tr>
+      <td><code>{{time}}</code></td>
+      <td>Current time.</td>
+    </tr>
+    <tr>
+      <td><code>{{year}}</code></td>
+      <td>Current year.</td>
+    </tr>
+    <tr>
+      <td><code>{{user}}</code></td>
+      <td>Logged-in viewer's display name (or empty for guests).</td>
+    </tr>
+    <tr>
+      <td><code>{{user_login}}</code></td>
+      <td>Logged-in viewer's username.</td>
+    </tr>
+    <tr>
+      <td><code>{{ip}}</code></td>
+      <td>Visitor's IP address (deters re-publishing).</td>
+    </tr>
+    <tr>
+      <td><code>{{copyright}}</code></td>
+      <td>© plus year and site name (see plugin output).</td>
+    </tr>
+    <tr>
+      <td><code>{{post_title}}</code></td>
+      <td>Title of the post the image is attached to.</td>
+    </tr>
+    <tr>
+      <td><code>{{site_name}}</code></td>
+      <td>Site title from <span class="screen-path">Settings → General</span>.</td>
+    </tr>
+    <tr>
+      <td><code>{{site_url}}</code></td>
+      <td><code>home_url()</code>.</td>
+    </tr>
+  </tbody>
+</table>
 
-- A "© 2026 Studio Name — viewed by John on 12 Mar 2026" diagonal stamp deters image reposting.
-- A "Draft for &#123;&#123;post_title&#125;&#125;" stamp on staging uploads.
+<p><strong>Use cases:</strong></p>
+<ul>
+  <li>A "© 2026 Studio Name — viewed by John on 12 Mar 2026" diagonal stamp deters image reposting.</li>
+  <li>A "Draft for {{post_title}}" stamp on staging uploads.</li>
+</ul>
+
+</div>
 
 Resolved via `ProPlugin::processDynamicContent` (`ProPlugin.php:160–194`) and `DynamicContentManager::parseTemplate`.
 

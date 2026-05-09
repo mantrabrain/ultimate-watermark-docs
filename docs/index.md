@@ -167,7 +167,7 @@ next:
 | GD or Imagick auto-detection                                     | ✅  | ✅  |
 | **One** watermark template (free limit)                          | ✅  | —   |
 | **Unlimited templates** (no free limit)                          | —   | ✅  |
-| **Dynamic placeholders** (`&#123;&#123;date&#125;&#125;`, `&#123;&#123;user&#125;&#125;`, `&#123;&#123;ip&#125;&#125;`…)     | —   | ✅  |
+| **Dynamic placeholders** (<span v-pre><code>{{date}}</code>, <code>{{user}}</code>, <code>{{ip}}</code>…</span>)     | —   | ✅  |
 | **On-the-fly frontend display** (originals untouched, cached)    | —   | ✅  |
 | **WooCommerce integration** (product galleries, bulk batches)    | —   | ✅  |
 | **Advanced conditional rules** (file type, dimensions, file size, orientation, aspect ratio, date range, categories) | — | ✅ |

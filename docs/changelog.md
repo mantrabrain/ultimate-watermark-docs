@@ -32,7 +32,7 @@ Ultimate Watermark follows semantic versioning loosely — `MAJOR.MINOR.PATCH` w
 
 - Initial Pro release.
 - **Unlimited templates** (removes free's one-template limit).
-- **Dynamic placeholders** — `&#123;&#123;date&#125;&#125;`, `&#123;&#123;user&#125;&#125;`, `&#123;&#123;ip&#125;&#125;`, `&#123;&#123;copyright&#125;&#125;`, `&#123;&#123;post_title&#125;&#125;`, `&#123;&#123;site_name&#125;&#125;`, `&#123;&#123;site_url&#125;&#125;`.
+- **Dynamic placeholders** — <span v-pre><code>{{date}}</code>, <code>{{user}}</code>, <code>{{ip}}</code>, <code>{{copyright}}</code>, <code>{{post_title}}</code>, <code>{{site_name}}</code>, <code>{{site_url}}</code></span>.
 - **On-the-fly (OTF) display** with disk cache at `uploads/ultimate-watermark-frontend-cache/`.
 - **Display tab** in the watermark builder for OTF settings (apply to content / thumbnails / WooCommerce, role bypass, cache toggle).
 - **WooCommerce integration** — product image and gallery handling, bulk batches, `product_cat` / `product_tag` rules.

@@ -13,7 +13,7 @@ Yes. The core plugin is GPLv3-or-later, lives on [WordPress.org](https://wordpre
 
 ### Do I need Ultimate Watermark Pro?
 
-Only if you need any of: **unlimited templates**, **dynamic placeholders** (`&#123;&#123;date&#125;&#125;`, `&#123;&#123;user&#125;&#125;`, `&#123;&#123;ip&#125;&#125;`), **on-the-fly frontend rendering**, **WooCommerce integration**, **advanced conditional rules** (file type, dimensions, file size, orientation, aspect ratio, date range, categories), or **background batch processing**.
+Only if you need any of: **unlimited templates**, **dynamic placeholders** (<span v-pre><code>{{date}}</code>, <code>{{user}}</code>, <code>{{ip}}</code></span>), **on-the-fly frontend rendering**, **WooCommerce integration**, **advanced conditional rules** (file type, dimensions, file size, orientation, aspect ratio, date range, categories), or **background batch processing**.
 
 The free plugin already covers most blogs and portfolios.
 
